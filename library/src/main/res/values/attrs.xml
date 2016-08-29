@@ -1,0 +1,16 @@
+<resources>
+    <declare-styleable name="BallQuadranglePathLoadingView">
+        <!-- animation duration -->
+        <attr name="duration" format="integer"/>
+        <!-- circleRadius -->
+        <attr name="circleRadius" format="dimension"/>
+        <!-- two circle max distance-->
+        <attr name="circleMaxDistance" format="dimension"/>
+        <!-- stroke color -->
+        <attr name="circleColor" format="color"/>
+        <!-- animation repeat count -->
+        <attr name="animRepeatCount" format="integer"/>
+        <!-- init angle of four points-->
+        <attr name="angle" format="integer"/>
+    </declare-styleable>
+</resources>
